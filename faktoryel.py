@@ -1,7 +1,10 @@
 def faktoryel(sayi):
     fak=1
-    for i in range(1,sayi+1):
-        fak*=i
-    return fak
+    if sayi<1:
+        print("hatalı veri girişi")
+    else:
+        for i in range(1,sayi+1):
+            fak*=i
+        print(f"{sayi}!:",fak)
 sayi=int(input("bir sayi giriniz:"))
-print(f"{sayi}!:",faktoryel(sayi))
+faktoryel(sayi)
