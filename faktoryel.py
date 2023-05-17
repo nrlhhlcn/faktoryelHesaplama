@@ -11,7 +11,7 @@ def faktoryel(sayi1,sayi2): # faktoryel hesaplayan fonksiyon
 
 
 
-        print(f"{sayi1}!-{sayi2}!:",fak1-fak2)
+        print(f"{sayi1}!+{sayi2}!:",fak1+fak2)
 sayi1=int(input("birinci sayi giriniz:"))
 sayi2=int(input("ikinci sayi giriniz:"))
 faktoryel(sayi1,sayi2)
