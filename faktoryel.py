@@ -1,4 +1,4 @@
-def faktoryel(sayi):
+def faktoryel(sayi): # faktoryel hesaplayan fonksiyon
     fak=1
     if sayi<1:
         print("hatalı veri girişi")
